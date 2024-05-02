@@ -1,3 +1,39 @@
-body{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    height: 450px;
+    background: url(../img/fundo_header.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+.Conteudo-Download{
+    width: 800px;
+    height:300px ;
+}
+.Conteudo-Download h1{
+    text-align: center;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 3em;
+    width: 320px;
+    margin-left: 200px;
+    color:white;
+}
+.Conteudo-Download p{
+    text-align: center;
+    font-family: Open Sans;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.download
