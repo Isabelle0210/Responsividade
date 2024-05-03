@@ -1,12 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
-    display: flex;
-    flex-direction: column;
 
 }
+
+/*conteudo escrito header*/
 header{
     height: 450px;
     background: url(../img/fundo_header.png) no-repeat;
@@ -33,7 +31,78 @@ header{
     font-family: Open Sans;
     color: white;
 }
+
+/*parte de download*/
 a{
     text-decoration: none;
 }
-.download
+.download{
+    color: black;
+    width: 210px;
+    height: 3.5em;
+    border-radius: 4em;/*1em=16px*/
+    border: none;
+    
+}
+.download-preto{
+    width: 300px;
+    height: 3.5em;
+    border-radius: 4em;
+    border: none;
+    background-color: #23272A;
+    color: #FFFFFF
+    ;
+}
+#botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*fim*/
+/*section1*/
+section{
+    height: 500px;
+    width: auto;
+}
+#conteudo-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-1{
+    width: 980px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.conteudo-1 img{
+    width: 600px;
+}
+#textos h1{
+    width: 300px;
+    font-family: Open Sans;
+    font-size: 2.5em;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 10px;
+}
+#textos p{
+    margin-left: 10px;
+}
+
+/*section-2*/
+#conteudo-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#conteudo-2 img{
+    width: 610px;
+}
+#textos-2{
+    width: 351px;
+    height: 212px;
+
+}
