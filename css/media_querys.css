@@ -1,0 +1,142 @@
+/*header*/
+@media screen and (width: 428px) {
+    
+    header {
+        background-position: center;
+        height: 500px;
+    }
+    .Conteudo-Download{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 90%;
+    }
+    .Conteudo-Download h1{
+        text-align: left;
+        margin: 0;
+    }
+    .Conteudo-Download p{
+        text-align: left;
+    }
+    #botoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .download, .download-preto{
+        width: 100%;
+    }
+}
+/*section1*/
+@media  screen and (width: 428px) {
+    section{
+        height: 530px;
+        width: auto;
+    }
+    #conteudo-1{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .conteudo-1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 520px;
+    }
+    .conteudo-1 img{
+        width: 379px;
+    }
+    #textos{
+        height: 340px;
+    }
+    #textos h1{
+        width: 300px;
+        font-family: Open Sans;
+        font-size: 1.8rem;
+        line-height: 30px;
+        text-align: justify;
+        margin-left: 10px;
+    }
+    #textos p{
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+}
+/*section-2 */
+@media  screen and (width: 428px){
+    #conteudo-2{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    #conteudo-2 img{
+        width:380px ;
+    }
+    #textos-2 h2{
+        font-family: Open Sans;
+        font-size: 24px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    #textos-2 p{
+        font-family: Open Sans;
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: left;
+    }
+}
+/*section-3*/
+@media  screen and (width: 428px){
+    #conteudo-3{
+        display: flex;
+        align-items: center;
+    }
+    .conteudo-3{
+        display: flex;
+        flex-direction: column;
+    }
+    #conteudo-3 div h1 {
+        width: 90%;
+        padding-bottom: 20px;
+        margin-left: 10px;
+    }
+    #conteudo-3 div p{
+        width: 90%;
+        font-family: Open Sans;
+        font-size: 1.2rem;
+        line-height: 21.79px;
+        text-align: left;
+        margin-left: 10px;
+    }
+}
+/*section-4* e footer/
+@media  screen and (width: 428px){
+    #conteudo-4{
+        height: 430px
+    }
+    .conteudo-4 h1{
+        width: 376px;
+        font-family: Luckiest Guy;
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .conteudo-4 p{
+        width: 376px;
+        text-align: center;
+    }
+    .conteudo-4 img{
+        width: 379px;
+    }
+    footer{
+        height: 70px;
+    }
+    footer img{
+        width: 8%;
+    }
+}
